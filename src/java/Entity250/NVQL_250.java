@@ -1,0 +1,59 @@
+
+package Entity250;
+
+
+
+import java.sql.Date;
+
+public class NVQL_250 {
+    private int id;
+    private String hoTen;
+    private String sdt;
+    private String email;
+    private String password;
+    private Date ngaySinh;
+    private String maNV;
+    private String chucVu;
+    private int sieuThiId;
+
+    public NVQL_250() {}
+
+    public NVQL_250(int id, String hoTen, String sdt, String email, String password, Date ngaySinh, String maNV, String chucVu, int sieuThiId) {
+        this.id = id;
+        this.hoTen = hoTen;
+        this.sdt = sdt;
+        this.email = email;
+        this.password = password;
+        this.ngaySinh = ngaySinh;
+        this.maNV = maNV;
+        this.chucVu = chucVu;
+        this.sieuThiId = sieuThiId;
+    }
+
+   public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
+
+    public String getHoTen() { return hoTen; }
+    public void setHoTen(String hoTen) { this.hoTen = hoTen; }
+
+    public String getSdt() { return sdt; }
+    public void setSdt(String sdt) { this.sdt = sdt; }
+
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
+
+    public String getPassword() { return password; }
+    public void setPassword(String password) { this.password = password; }
+
+    public Date getNgaySinh() { return ngaySinh; }
+    public void setNgaySinh(Date ngaySinh) { this.ngaySinh = ngaySinh; }
+
+    public String getMaNV() { return maNV; }
+    public void setMaNV(String maNV) { this.maNV = maNV; }
+
+    public String getChucVu() { return chucVu; }
+    public void setChucVu(String chucVu) { this.chucVu = chucVu; }
+
+    public int getSieuThiId() { return sieuThiId; }
+    public void setSieuThiId(int sieuThiId) { this.sieuThiId = sieuThiId; }
+}
